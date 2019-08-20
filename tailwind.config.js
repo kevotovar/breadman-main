@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       colors: {
         'breadman-grey': '#BFBFBF',
-        'breadman-black': '#262027',
+        'breadman-black': '#1F1B21',
+        'breadman-black-light': '#262027',
         'breadman-red': '#F05472',
       },
       fontFamily: {
