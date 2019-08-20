@@ -34,7 +34,7 @@ function Header() {
       calcHeightOnResize={false}
     >
       <nav className={isPinned || isExpanded ? 'bg-breadman-black-light' : ''}>
-        <div className="flex flex-wrap items-center justify-between max-w-4xl mx-auto p-2 md:p-4">
+        <div className="flex flex-wrap items-center justify-between max-w-6xl mx-auto p-2 md:p-4">
           <Link to="/" className="flex items-center no-underline text-white">
             <img src={name} alt="breadman logo" className="w-24" />
           </Link>
