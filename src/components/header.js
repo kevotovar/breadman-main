@@ -34,7 +34,7 @@ function Header() {
       calcHeightOnResize={false}
     >
       <nav className={isPinned || isExpanded ? 'bg-breadman-black-light' : ''}>
-        <div className="flex flex-wrap items-center justify-between max-w-6xl mx-auto p-2 md:p-4">
+        <div className="flex flex-wrap items-center justify-between max-w-6xl mx-auto p-4">
           <Link to="/" className="flex items-center no-underline text-white">
             <img src={name} alt="breadman logo" className="w-24" />
           </Link>
@@ -65,36 +65,42 @@ function Header() {
               <Link
                 to="/"
                 className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
+                activeClassName="text-breadman-red"
               >
                 Home
               </Link>
               <Link
                 to="/branding"
                 className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
+                activeClassName="text-breadman-red"
               >
                 Branding
               </Link>
               <Link
                 to="/contact"
                 className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
+                activeClassName="text-breadman-red"
               >
                 Indentidad
               </Link>
               <Link
                 to="/contact"
                 className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
+                activeClassName="text-breadman-red"
               >
                 Inbound Mkt
               </Link>
               <Link
                 to="/contact"
                 className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
+                activeClassName="text-breadman-red"
               >
                 Web/Apps
               </Link>
               <Link
                 to="/contact"
                 className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
+                activeClassName="text-breadman-red"
               >
                 Contacto
               </Link>
