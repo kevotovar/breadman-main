@@ -60,28 +60,3 @@
  * @import "utilities/background-patterns";
  * @import "utilities/skew-transforms";
  */
-.headroom-wrapper {
-  position: fixed;
-  width: 100%;
-}
-
-html,
-body,
-#___gatsby,
-#gatsby-focus-wrapper {
-  height: 100%;
-}
-
-.breadman-main {
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  background-size: 400px;
-}
-
-@media (max-width: 767px) {
-  .breadman-main {
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: 200px;
-  }
-}
