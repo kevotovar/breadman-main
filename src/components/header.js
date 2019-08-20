@@ -56,7 +56,7 @@ function Header() {
           <div
             className={`${
               isExpanded ? `block` : `hidden`
-            } absolute p-4 bg-breadman-black-light md:top-0 md:relative md:bg-transparent md:block md:flex md:items-center w-full md:w-auto left-0 font-serif`}
+            } absolute p-4 bg-breadman-black-light md:top-0 md:relative md:bg-transparent md:block md:flex md:items-center w-full md:w-auto left-0 font-serif font-semibold`}
             style={{
               top: isExpanded ? 90 : '',
             }}
