@@ -49,7 +49,7 @@ function IndexPage() {
             <KnowMore variant="white" to="/branding" />
           </div>
           <div className="w-full mt-6 md:mt-0 md:w-3/5">
-            <p className="text-breadman-black-light text-6xl leading-none font-serif font-black mb-6">
+            <p className="text-breadman-black-light text-5xl md:text-6xl leading-none font-serif font-black mb-6">
               <span className="text-breadman-red">Brand</span> is not equal to
               identity; identity is the result of an effective{' '}
               <span className="text-breadman-red">brand.</span>
@@ -77,7 +77,7 @@ function IndexPage() {
             <KnowMore variant="red" to="/marca" />
           </div>
           <div className="w-full mt-6 md:mt-0 md:w-3/5">
-            <p className="text-breadman-black-light text-6xl leading-none font-serif font-black mb-6">
+            <p className="text-breadman-black-light text-5xl md:text-6xl leading-none font-serif font-black mb-6">
               Los estilos vienen y van. El buen diseño es un{' '}
               <span className="text-white">lenguaje</span>, nunca un estilo.
             </p>
@@ -106,7 +106,7 @@ function IndexPage() {
             <KnowMore variant="black" to="/marca" />
           </div>
           <div className="w-full mt-6 md:mt-0 md:w-3/5">
-            <p className="text-white text-6xl leading-none font-serif font-black mb-6">
+            <p className="text-white text-5xl md:text-6xl leading-none font-serif font-black mb-6">
               Las redes sociales ya no son sobre sitios webs,{' '}
               <span className="text-breadman-red">tratan de experiencias.</span>
             </p>
@@ -131,7 +131,7 @@ function IndexPage() {
             <KnowMore variant="white" to="/web" />
           </div>
           <div className="w-full mt-6 md:mt-0 md:w-3/5">
-            <p className="text-breadman-black-light text-6xl leading-none font-serif font-black mb-6">
+            <p className="text-breadman-black-light text-5xl md:text-6xl leading-none font-serif font-black mb-6">
               Google es la{' '}
               <span className="text-breadman-red">nueva página de inicio</span>{' '}
               de la empresa.
