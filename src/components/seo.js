@@ -50,6 +50,10 @@ function SEO({ description, lang, meta, keywords, title }) {
                 name: `twitter:description`,
                 content: metaDescription,
               },
+              {
+                name: 'google-site-verification',
+                content: 'hrQTp1LePviJu9kXQeL9ZAiB02cgboytexQznpR6fKs',
+              },
             ]
               .concat(
                 keywords.length > 0
@@ -66,7 +70,8 @@ function SEO({ description, lang, meta, keywords, title }) {
                 "@context": "http://schema.org/",
                 "@type": "Organization",
                 "name": "Breadman",
-                "url": "https://breadman.mx/"`}
+                "url": "https://breadman.mx/"
+              }`}
             </script>
           </Helmet>
         )
