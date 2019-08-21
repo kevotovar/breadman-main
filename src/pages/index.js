@@ -2,6 +2,7 @@ import React from 'react'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import KnowMore from '../components/KnowMore'
 
 import logo from '../images/logo.png'
 
@@ -37,7 +38,7 @@ function IndexPage() {
             <h5 className="text-breadman-black-light font-serif font-black text-4xl mb-4">
               BRANDING
             </h5>
-            <p>
+            <p className="mb-12">
               Muchas personas confunden “Branding” con “hacer un logo”; y en
               cierta forma si lo es, pero, hacer el logo es solo un eslabón en
               la cadena de atributos que componen el Branding. Hacer branding se
@@ -45,6 +46,7 @@ function IndexPage() {
               de la <i className="font-semibold">personalidad, voz</i> y{' '}
               <i className="font-semibold">valores de la marca.</i>
             </p>
+            <KnowMore variant="white" to="/branding" />
           </div>
           <div className="w-full mt-6 md:mt-0 md:w-3/5">
             <p className="text-breadman-black-light text-6xl leading-none font-serif font-black mb-6">
@@ -63,7 +65,7 @@ function IndexPage() {
             <h5 className="text-breadman-black-light font-serif font-black text-4xl mb-4 uppercase leading-none">
               Identidad <br /> <span className="text-white">de Marca</span>
             </h5>
-            <p>
+            <p className="mb-12">
               Son todos los aspectos visuales tangibles que forman parte de la
               marca cómo: logotípo, línea gráfica, tipografía, colores,
               anuncios, papelería, etc.
@@ -72,6 +74,7 @@ function IndexPage() {
               En pocas palabras es: la manera visual de decirle a tus clientes
               quién y eres y cómo te ves.
             </p>
+            <KnowMore variant="red" to="/marca" />
           </div>
           <div className="w-full mt-6 md:mt-0 md:w-3/5">
             <p className="text-breadman-black-light text-6xl leading-none font-serif font-black mb-6">
@@ -89,7 +92,7 @@ function IndexPage() {
             <h5 className="text-breadman-red font-serif font-black text-4xl mb-4 uppercase leading-none">
               Inbound mkt
             </h5>
-            <p className="text-white">
+            <p className="text-white mb-12">
               Es marketing no intrusivo, que se encarga de llevar al usuario por
               todo el proceso de compra; desde que una persona descubre la
               marca, hasta completar una trasacción.
@@ -100,6 +103,7 @@ function IndexPage() {
               Esto con el fin de crear una comunidad fiel a tu marca, que
               interactue, que aporte y que ayude a seguir creando la marca.
             </p>
+            <KnowMore variant="black" to="/marca" />
           </div>
           <div className="w-full mt-6 md:mt-0 md:w-3/5">
             <p className="text-white text-6xl leading-none font-serif font-black mb-6">
@@ -117,13 +121,14 @@ function IndexPage() {
             <h5 className="text-breadman-black-light font-serif font-black text-4xl mb-4 uppercase">
               Web / APPS
             </h5>
-            <p>
+            <p className="mb-12">
               Automatizar tu negocio con un sitio web o app puede ser la
               solución a una serie de tareas que están consumiendo tu tiempo
               cómo: cobrar, mandar mails, ir al banco, captar clientes, manejar
               una base de datos. Además, te ayuda a convertir más ventas, atraer
               nuevos prospectos y a fidelizar a tus clientes.
             </p>
+            <KnowMore variant="white" to="/web" />
           </div>
           <div className="w-full mt-6 md:mt-0 md:w-3/5">
             <p className="text-breadman-black-light text-6xl leading-none font-serif font-black mb-6">
