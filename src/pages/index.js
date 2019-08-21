@@ -79,7 +79,7 @@ function IndexPage() {
               <span className="text-white">lenguaje</span>, nunca un estilo.
             </p>
             <div className="bg-white h-2 w-24 mb-4"></div>
-            <p className="font-light text-xl">Massimo Vignelli</p>
+            <p className="font-light text-xl text-white">Massimo Vignelli</p>
           </div>
         </div>
       </div>
@@ -107,7 +107,32 @@ function IndexPage() {
               <span className="text-breadman-red">tratan de experiencias.</span>
             </p>
             <div className="bg-white h-2 w-24 mb-4"></div>
-            <p className="font-light text-xl">Massimo Vignelli</p>
+            <p className="font-light text-xl text-white">Mike DiLorenzo</p>
+          </div>
+        </div>
+      </div>
+      <div className="md:h-screen p-8 flex items-center">
+        <div className="md:flex mx-auto max-w-6xl items-center justify-between">
+          <div className="w-full md:w-1/3">
+            <h5 className="text-breadman-black-light font-serif font-black text-4xl mb-4 uppercase">
+              Web / APPS
+            </h5>
+            <p>
+              Automatizar tu negocio con un sitio web o app puede ser la
+              solución a una serie de tareas que están consumiendo tu tiempo
+              cómo: cobrar, mandar mails, ir al banco, captar clientes, manejar
+              una base de datos. Además, te ayuda a convertir más ventas, atraer
+              nuevos prospectos y a fidelizar a tus clientes.
+            </p>
+          </div>
+          <div className="w-full mt-6 md:mt-0 md:w-3/5">
+            <p className="text-breadman-black-light text-6xl leading-none font-serif font-black mb-6">
+              Google es la{' '}
+              <span className="text-breadman-red">nueva página de inicio</span>{' '}
+              de la empresa.
+            </p>
+            <div className="bg-breadman-red h-2 w-24 mb-4"></div>
+            <p className="font-light text-xl">Jeremías Owyang</p>
           </div>
         </div>
       </div>
