@@ -3,6 +3,7 @@ module.exports = {
     title: `Breadman`,
     description: `Agencia`,
     author: `@taylorbryant`,
+    siteUrl: 'https://breadman.mx/',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -38,5 +39,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-root-import',
+    'gatsby-plugin-sitemap',
   ],
 }
