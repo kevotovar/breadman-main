@@ -33,7 +33,7 @@ function IndexPage() {
       </section>
       <div className="md:h-screen p-8 flex items-center">
         <div className="md:flex mx-auto max-w-6xl items-center justify-between">
-          <div className="w-full md:w-1/5">
+          <div className="w-full md:w-1/3">
             <h5 className="text-breadman-black-light font-serif font-black text-4xl mb-4">
               BRANDING
             </h5>
@@ -59,7 +59,7 @@ function IndexPage() {
       </div>
       <div className="md:h-screen p-8 flex items-center bg-breadman-red">
         <div className="md:flex mx-auto max-w-6xl items-center justify-between">
-          <div className="w-full md:w-1/5">
+          <div className="w-full md:w-1/3">
             <h5 className="text-breadman-black-light font-serif font-black text-4xl mb-4 uppercase leading-none">
               Identidad <br /> <span className="text-white">de Marca</span>
             </h5>
@@ -77,6 +77,34 @@ function IndexPage() {
             <p className="text-breadman-black-light text-6xl leading-none font-serif font-black mb-6">
               Los estilos vienen y van. El buen diseño es un{' '}
               <span className="text-white">lenguaje</span>, nunca un estilo.
+            </p>
+            <div className="bg-white h-2 w-24 mb-4"></div>
+            <p className="font-light text-xl">Massimo Vignelli</p>
+          </div>
+        </div>
+      </div>
+      <div className="md:h-screen p-8 flex items-center bg-breadman-black-light">
+        <div className="md:flex mx-auto max-w-6xl items-center justify-between">
+          <div className="w-full md:w-1/3">
+            <h5 className="text-breadman-red font-serif font-black text-4xl mb-4 uppercase leading-none">
+              Inbound mkt
+            </h5>
+            <p className="text-white">
+              Es marketing no intrusivo, que se encarga de llevar al usuario por
+              todo el proceso de compra; desde que una persona descubre la
+              marca, hasta completar una trasacción.
+              <br />
+              <br />
+              Nos bamasos en la creación de contenidos de calidad que aporten
+              valor al usuario, que lo eduque, que lo ayude y que lo divierta.
+              Esto con el fin de crear una comunidad fiel a tu marca, que
+              interactue, que aporte y que ayude a seguir creando la marca.
+            </p>
+          </div>
+          <div className="w-full mt-6 md:mt-0 md:w-3/5">
+            <p className="text-white text-6xl leading-none font-serif font-black mb-6">
+              Las redes sociales ya no son sobre sitios webs,{' '}
+              <span className="text-breadman-red">tratan de experiencias.</span>
             </p>
             <div className="bg-white h-2 w-24 mb-4"></div>
             <p className="font-light text-xl">Massimo Vignelli</p>
