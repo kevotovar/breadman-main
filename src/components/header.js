@@ -77,28 +77,28 @@ function Header() {
                 Branding
               </Link>
               <Link
-                to="/contact"
+                to="/identidad"
                 className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
                 activeClassName="text-breadman-red"
               >
                 Indentidad
               </Link>
               <Link
-                to="/contact"
+                to="/inbound"
                 className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
                 activeClassName="text-breadman-red"
               >
                 Inbound Mkt
               </Link>
               <Link
-                to="/contact"
+                to="/web-apps"
                 className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
                 activeClassName="text-breadman-red"
               >
                 Web/Apps
               </Link>
               <Link
-                to="/contact"
+                to="/contacto"
                 className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
                 activeClassName="text-breadman-red"
               >
