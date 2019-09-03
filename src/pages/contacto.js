@@ -1,78 +1,116 @@
-import React from "react";
+import React from 'react'
+import { Formik, Form } from 'formik'
+import * as yup from 'yup'
+import axios from 'axios'
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
 
-import Layout from "../components/layout";
-import SEO from "../components/seo";
+import Layout from '../components/layout'
+import SEO from '../components/seo'
+
+const MySwal = withReactContent(Swal)
+
+const VALIDATON_SCHEMA = yup.object().shape({
+  nombre: yup.string().required(),
+  mail: yup
+    .string()
+    .email()
+    .required(),
+  mensaje: yup.string().required(),
+})
 
 function ContactPage() {
   return (
     <Layout>
-      <SEO
-        title="Contact"
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-      />
-      <section>
-        <form className="mx-auto md:w-1/2">
-          <p className="leading-loose mb-8">
-            Here is an example of a form built using Tailwind. More form
-            examples are available{" "}
-            <a
-              href="https://tailwindcss.com/docs/examples/forms"
-              className="font-bold no-underline text-gray-700"
-            >
-              here
-            </a>
-            .
-          </p>
+      <SEO title="Contacto" />
+      <section className="min-h-screen bg-breadman-black-light pt-32 px-4 pb-12">
+        <Formik
+          initialValues={{
+            nombre: '',
+            mail: '',
+            mensaje: '',
+          }}
+          validationSchema={VALIDATON_SCHEMA}
+          onSubmit={async (values, formikActions) => {
+            try {
+              await axios.get(
+                'https://hooks.zapier.com/hooks/catch/2973738/o3tanls/',
+                {
+                  params: values,
+                }
+              )
+              MySwal.fire({
+                toast: true,
+                type: 'success',
+                title: 'Formulario enviado',
+                text: 'Pronto nos comunicaremos contigo',
+                position: 'top-end',
+                showConfirmButton: false,
+              })
+            } catch (e) {
+              console.error(e)
+              formikActions.setSubmitting(false)
+              MySwal.fire({
+                toast: true,
+                type: 'error',
+                title: 'Error al enviar el formulario',
+                text: 'Revisa que tengas conexion a internet',
+                position: 'top-end',
+                showConfirmButton: false,
+              })
+            }
+          }}
+        >
+          {({ values, handleChange, handleBlur, isValid, isSubmitting }) => (
+            <Form className="mx-auto text-white lg:w-1/2 md:w-2/3 border-2 border-breadman-red p-12 rounded-lg">
+              <h1 className="text-4xl text-center text-breadman-red mb-8">
+                Contacto
+              </h1>
+              <div className="bg-breadman-red h-1 w-8 mx-auto mb-8"></div>
+              <input
+                className="appearance-none block bg-gray-200 mb-6 px-3 py-2 rounded-md w-full bg-breadman-black text-white p-4"
+                id="nombre"
+                name="nombre"
+                type="text"
+                placeholder="Nombre"
+                onChange={handleChange}
+                onBlur={handleBlur}
+                value={values.nombre}
+              />
+              <input
+                className="appearance-none block bg-gray-200 mb-6 px-3 py-2 rounded-md w-full bg-breadman-black text-white p-4"
+                id="mail"
+                name="mail"
+                type="text"
+                placeholder="Mail"
+                onChange={handleChange}
+                onBlur={handleBlur}
+                value={values.mail}
+              />
+              <textarea
+                className="appearance-none bg-gray-200 mb-6 px-3 py-2 rounded-md w-full bg-breadman-black text-white p-4"
+                id="mensaje"
+                name="mensaje"
+                placeholder="Mensaje"
+                rows="8"
+                onChange={handleChange}
+                onBlur={handleBlur}
+                value={values.mensaje}
+              />
 
-          <label
-            className="block font-bold mb-2 text-xs uppercase"
-            htmlFor="first-name"
-          >
-            First Name
-          </label>
-
-          <input
-            className="appearance-none block bg-gray-200 mb-6 px-3 py-2 rounded-md text-gray-700 w-full"
-            id="first-name"
-            type="text"
-            placeholder="Bill"
-          />
-
-          <label
-            className="block font-bold mb-2 text-xs uppercase"
-            htmlFor="last-name"
-          >
-            Last Name
-          </label>
-
-          <input
-            className="appearance-none block bg-gray-200 mb-6 px-3 py-2 rounded-md text-gray-700 w-full"
-            id="last-name"
-            type="text"
-            placeholder="Murray"
-          />
-
-          <label
-            className="block font-bold mb-2 text-xs uppercase"
-            htmlFor="message"
-          >
-            Message
-          </label>
-
-          <textarea
-            className="appearance-none bg-gray-200 mb-6 px-3 py-2 rounded-md text-gray-700 w-full"
-            id="message"
-            placeholder="Say something..."
-            rows="8"
-          />
-
-          <button className="border-b-4 border-gray-800 hover:border-gray-700 bg-gray-700 hover:bg-gray-600 font-bold px-4 py-2 rounded text-sm text-white">
-            Submit
-          </button>
-        </form>
+              <button
+                className="bg-breadman-red px-8 py-4 rounded text-white mx-auto"
+                disabled={!isValid || isSubmitting}
+                type="submit"
+              >
+                Enviar
+              </button>
+            </Form>
+          )}
+        </Formik>
       </section>
     </Layout>
-  );
+  )
 }
 
-export default ContactPage;
+export default ContactPage
