@@ -99,7 +99,7 @@ function IndexPage() {
               marca, hasta completar una trasacción.
               <br />
               <br />
-              Nos bamasos en la creación de contenidos de calidad que aporten
+              Nos basamos en la creación de contenidos de calidad que aporten
               valor al usuario, que lo eduque, que lo ayude y que lo divierta.
               Esto con el fin de crear una comunidad fiel a tu marca, que
               interactue, que aporte y que ayude a seguir creando la marca.
