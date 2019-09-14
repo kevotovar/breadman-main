@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
+import logo from '../images/logo-circulo.png'
+
 function SEO({ description, lang, meta, keywords, title }) {
   return (
     <StaticQuery
@@ -54,6 +56,7 @@ function SEO({ description, lang, meta, keywords, title }) {
                 name: 'google-site-verification',
                 content: 'hrQTp1LePviJu9kXQeL9ZAiB02cgboytexQznpR6fKs',
               },
+              { name: 'og:image', content: logo },
             ]
               .concat(
                 keywords.length > 0
