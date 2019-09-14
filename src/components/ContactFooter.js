@@ -13,14 +13,14 @@ o lo que sea que nos quieras platicar, queremos conocerte.`,
       <h6 className="text-breadman-red text-center text-3xl font-medium mb-4 font-serif">
         {title}
       </h6>
-      <p className="max-w-xl text-center text-white font-light mb-6">
+      <p className="max-w-xl text-center text-white font-light mb-6 leading-tight">
         {description}
       </p>
       <Link
         to="/contacto"
         className="rounded bg-breadman-red text-white py-4 px-6 font-medium"
       >
-        Escribenos
+        Escríbenos
       </Link>
     </div>
   )

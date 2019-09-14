@@ -9,22 +9,22 @@ export default function WebApps() {
         <div className="flex flex-wrap items-center justify-between lg:justify-around mt-24 max-w-6xl mx-auto">
           <div className="flex-1">
             <h1 className="text-white text-5xl md:text-6xl uppercase font-serif font-black leading-none">
-              WEB | <span className="text-breadman-red">APPS</span>
+              WEB/<span className="text-breadman-red">APPS</span>
             </h1>
-            <h3 className="leading-none text-breadman-red mb-4">
-              SITIO WEB / DESARROLLO / APPS
+            <h3 className="leading-none text-breadman-red mb-4 text-medium">
+              SITIO WEB/DESARROLLO/APPS
             </h3>
             <p className="text-white max-w-sm">
               Usamos métodos de optimización de recursos para que nuestros
-              sitios funcionen a alta velocidad en conexiones 3g móviles,
-              asegurándonos de siempre calificar en google con una puntuación de
-              90+ mejorando el posicionamiento en búsquedas.
+              sitios funcionen a alta velocidad en conexiones 3G móviles,
+              asegurándonos de siempre calificar en Google con una puntuación de
+              90+, lo que mejora el posicionamiento en búsquedas.
               <br />
               <br />
-              En el ámbito del desarrollo móvil usamos React Native, siendo el
-              mejor ambiente de desarrollo para aplicaciones Android y iOS, con
+              En el ámbito del desarrollo móvil, usamos React Native que es el
+              mejor ambiente de desarrollo para aplicaciones Android e iOS, con
               esto nos aseguramos de mantener la consistencia entre plataformas
-              para asegurar la mejor experiencia de usuario.
+              para garantizar la mejor experiencia de usuario.
             </p>
           </div>
           <div className="w-full md mt-16 md:mt-0 md:w-1/2 lg:w-1/3 md:pl-12">
@@ -56,7 +56,7 @@ export default function WebApps() {
         <ContactFooter
           title="¿Sabes si tu negocio necesita un sitio web?"
           description={`
-          Hacer un sitio web no es cosa menor y por eso es normal que te surjan muchas dudas sobre si es o no necesario, las ventajas que ofrece, los beneficios y el crecimiento que representa tener presencia online. Escríbenos y recibe asesoría gratuita sobre todo lo que necesitas saber de sitios web para tu negocio.
+          Invertir en un sitio web puede ser la piedra angular de tu negocio. Si tienes dudas sobre las ventajas, los beneficios y el crecimiento que genera tener presencia online, escríbenos y recibe asesoría gratuita sobre sitios web para tu negocio.
         `}
         />
       </div>

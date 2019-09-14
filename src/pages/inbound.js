@@ -11,19 +11,16 @@ export default function Branding() {
             INBOUND MKT
           </h1>
           <h3 className="text-center leading-none text-breadman-red mb-4">
-            ATTACT / CONVERT / CLOSE / DELIGHT
+            ATTACT/CONVERT/CLOSE/DELIGHT
           </h3>
           <p className="text-white text-center max-w-sm">
-            Basados en la metodología Inbound , nos enfocamos en el Journey del
-            usuario; desde que tiene contacto por primera vez con la marca,
+            Basados en la metodología inbound, nos enfocamos en el proceso de
+            compra del usuario, desde que tiene el primer contacto con la marca,
             hasta el momento de la transacción final.
             <br />
             <br />
-            Esto, a través de cuatro etapas:
-            <br />
-            <span className="text-breadman-red">
-              Attract, Convert, Close, Delight.
-            </span>
+            Lo anterior se logra mediante cuatro etapas: attract, convert,
+            close, delight.
           </p>
         </div>
         <div className="flex flex-wrap items-stretch justify-between max-w-6xl mx-auto mt-20">
@@ -42,10 +39,10 @@ export default function Branding() {
               </div>
               <div className="border-t-2 border-breadman-red px-6 pt-4">
                 <p className="text-white text-sm text-center border-b-2 border-breadman-red pb-4 mb-4">
-                  Blog / Contenido
+                  Blog/Contenido
                 </p>
                 <p className="text-white text-sm text-center border-b-2 border-breadman-red pb-4 mb-4">
-                  SEO / Adds / Pauta
+                  SEO/Adds/Pauta
                 </p>
                 <p className="text-white text-sm text-center pb-4 mb-4">
                   Redes sociales
@@ -61,9 +58,9 @@ export default function Branding() {
                 </h5>
                 <div className="w-6 h-1 bg-breadman-red mt-2 mb-6"></div>
                 <p className="text-white text-center text-sm">
-                  En esta etapa vamos a conseguir que las visitas al sitio web
-                  se conviertan en registros que a su vez irán alimentando una
-                  base de datos de calidad con la que empezaremos a trabajar
+                  En esta etapa conseguiremos que las visitas al sitio web se
+                  conviertan en registros, que a su vez irán alimentando una
+                  base de datos de calidad con la que empezaremos a trabajar.
                 </p>
               </div>
               <div className="border-t-2 border-breadman-red px-6 pt-4">
@@ -87,12 +84,12 @@ export default function Branding() {
                 </h5>
                 <div className="w-6 h-1 bg-breadman-red mt-2 mb-6"></div>
                 <p className="text-white text-center text-sm">
-                  Aquí entramos al proceso de maduración y calificación del
-                  lead, donde evaluamos el nivel de decisión de compra que tiene
-                  un cliente potencial.
+                  Aquí entramos al proceso de calificación del prospecto, donde
+                  se buscará que madure hacia un cliente potencial, con mayor
+                  decisión de compra.
                   <br />
                   <br />
-                  De acuerdo a los resultados segmentamos las audiencias para
+                  De acuerdo con los resultados, segmentamos las audiencias para
                   iniciar campañas de mailing que influyan en la decisión de
                   compra o recompra.
                 </p>
@@ -115,8 +112,11 @@ export default function Branding() {
                 <p className="text-white text-center text-sm">
                   En esta última etapa buscamos fidelizar a nuestros clientes,
                   consintiéndolos periódicamente con información relevante,
-                  promociones o beneficios. Esto con el objetivo de la recompra
-                  generando empatía y gusto por la marca.
+                  promociones o beneficios.
+                  <br />
+                  <br />
+                  Esto para generar empatía, gusto por la marca y así aumentar
+                  la recompra.
                 </p>
               </div>
               <div className="border-t-2 border-breadman-red px-6 pt-4">
@@ -130,7 +130,7 @@ export default function Branding() {
         <ContactFooter
           title="¿Estás generando lo que te mereces?"
           description={`
-          Si no estas vendiendo, si te cuesta trabajo conseguir más clientes, si estas teniendo meses malos y meses buenos, el Inbound Marketing te puede ser de mucha ayuda. Platícanos la situación por la que atraviesa tu empresa, queremos escucharte.
+          Si no estás vendiendo lo que te gustaría, si te cuesta trabajo conseguir más clientes o tienes ingresos irregulares, el inbound marketing es de mucha ayuda. Platícanos la situación que atraviesa tu empresa. Queremos escucharte.
         `}
         />
       </div>
