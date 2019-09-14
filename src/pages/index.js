@@ -9,7 +9,7 @@ import logo from '../images/logo-circulo.png'
 function IndexPage() {
   return (
     <Layout>
-      <SEO title="Inicio" />
+      <SEO title="¡Hola!" />
       <section
         className="h-screen bg-breadman-black-light breadman-main flex items-center p-8"
         style={{

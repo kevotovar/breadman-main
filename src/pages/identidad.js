@@ -1,10 +1,12 @@
 import React from 'react'
 import Layout from 'src/components/layout'
 import ContactFooter from 'src/components/ContactFooter'
+import SEO from '../components/seo'
 
 export default function Identity() {
   return (
     <Layout>
+      <SEO />
       <div className="min-h-screen bg-breadman-black pt-24 pb-12 md:pt-40 px-6">
         <div className="flex flex-wrap items-center justify-between lg:justify-around mt-24 max-w-6xl mx-auto">
           <div className="flex-1">

@@ -1,10 +1,12 @@
 import React from 'react'
 import Layout from 'src/components/layout'
 import ContactFooter from 'src/components/ContactFooter'
+import SEO from '../components/seo'
 
 export default function Branding() {
   return (
     <Layout>
+      <SEO />
       <div className="min-h-screen bg-breadman-black pt-24 pb-12 md:pt-64">
         <div className="flex flex-col items-center mt-24 max-w-6xl mx-auto">
           <h1 className="text-white text-5xl md:text-6xl uppercase font-serif font-black leading-none">

@@ -3,9 +3,15 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
-import logo from '../images/logo-circulo.png'
+import logo from '../images/breadman-og.jpeg'
 
-function SEO({ description, lang, meta, keywords, title }) {
+function SEO({
+  description = 'Somos una agencia dedicada a: Branding, Identidad Gráfica, Inbound MKT, Web',
+  lang,
+  meta,
+  keywords,
+  title = '¡Hola!',
+}) {
   return (
     <StaticQuery
       query={detailsQuery}
