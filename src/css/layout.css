@@ -13,13 +13,13 @@ body,
 .breadman-main {
   background-position: center bottom;
   background-repeat: no-repeat;
-  background-size: 400px;
+  background-size: 700px;
 }
 
 @media (max-width: 767px) {
   .breadman-main {
     background-position: center bottom;
     background-repeat: no-repeat;
-    background-size: 200px;
+    background-size: 400px;
   }
 }

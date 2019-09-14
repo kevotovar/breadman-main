@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import KnowMore from '../components/KnowMore'
 
-import logo from '../images/logo.png'
+import logo from '../images/logo-circulo.png'
 
 function IndexPage() {
   return (
@@ -17,18 +17,18 @@ function IndexPage() {
         }}
       >
         <div className="max-w-6xl mx-auto flex-1">
-          <h4 className="text-breadman-red font-serif  text-2xl leading-none font-medium">
-            HOLA SOMOS
+          <h4 className="text-breadman-red font-serif  text-5xl md:text-6xl leading-none font-medium">
+            HOLA
           </h4>
           <h1 className="text-white font-serif text-5xl md:text-6xl leading-none font-black mb-4">
-            BREADMAN
+            SOMOS BREADMAN
           </h1>
           <p className="text-white md:max-w-md">
-            Y ayudámos a empresas a transformarse en marcas. Marcas que piensen,
-            con una voz propia que comunique el mensaje que quieres dar; marcas
-            que generen contenido de valor diseñado correctamente; marcas que
-            existan y funcionen en la web, que generen prospectos, qué generen
-            clientes, qué generen ventas.
+            Nuestra tarea es ayudar a empresas para transformarse en marcas.
+            Marcas que piensen, que tengan una voz propia que comunique
+            claramente su mensaje; que generen contenido de valor diseñado
+            correctamente; que tengan éxito en la web y en redes sociales, donde
+            generen prospectos, clientes y ventas.
           </p>
         </div>
       </section>
@@ -39,12 +39,13 @@ function IndexPage() {
               BRANDING
             </h5>
             <p className="mb-12">
-              Muchas personas confunden “Branding” con “hacer un logo”; y en
-              cierta forma si lo es, pero, hacer el logo es solo un eslabón en
-              la cadena de atributos que componen el Branding. Hacer branding se
-              trata de generar emociones y sentimientos en las personas a travez
-              de la <i className="font-semibold">personalidad, voz</i> y{' '}
-              <i className="font-semibold">valores de la marca.</i>
+              Muchas personas confunden el branding con “hacer un logo”, y
+              aunque es una parte importante de este proceso, es sólo un eslabón
+              en la cadena de atributos que componen el branding.
+              <br />
+              <br />
+              Hacer branding se trata de generar emociones y sentimientos en las
+              personas a través de la personalidad, voz y valores de la marca.
             </p>
             <KnowMore variant="white" to="/branding" />
           </div>
@@ -66,13 +67,13 @@ function IndexPage() {
               Identidad <br /> <span className="text-white">de Marca</span>
             </h5>
             <p className="mb-12">
-              Son todos los aspectos visuales tangibles que forman parte de la
-              marca cómo: logotípo, línea gráfica, tipografía, colores,
-              anuncios, papelería, etc.
+              Son todos los aspectos visuales que forman parte de la marca, como
+              logotipo, línea gráfica, tipografía, colores, anuncios, papelería,
+              etcétera.
               <br />
               <br />
-              En pocas palabras es: la manera visual de decirle a tus clientes
-              quién y eres y cómo te ves.
+              En pocas palabras, es: la manera de decirle a tus clientes quién
+              eres y cómo te ves.
             </p>
             <KnowMore variant="red" to="/marca" />
           </div>
@@ -119,12 +120,12 @@ function IndexPage() {
         <div className="md:flex mx-auto max-w-6xl items-center justify-between">
           <div className="w-full md:w-1/3">
             <h5 className="text-breadman-black-light font-serif font-black text-4xl mb-4 uppercase">
-              Web / APPS
+              Web/APPS
             </h5>
             <p className="mb-12">
               Automatizar tu negocio con un sitio web o app puede ser la
-              solución a una serie de tareas que están consumiendo tu tiempo
-              cómo: cobrar, mandar mails, ir al banco, captar clientes, manejar
+              solución a una serie de tareas que están consumiendo tu tiempo,
+              como cobrar, mandar mails, ir al banco, captar clientes o manejar
               una base de datos. Además, te ayuda a convertir más ventas, atraer
               nuevos prospectos y a fidelizar a tus clientes.
             </p>
