@@ -4,6 +4,7 @@ import { graphql, useStaticQuery } from 'gatsby'
 import '../css/layout.css'
 
 import Header from './header'
+import Footer from './Footer'
 
 function Layout({ children }) {
   const data = useStaticQuery(graphql`
@@ -20,6 +21,7 @@ function Layout({ children }) {
     <div className="h-full font-sans text-gray-900">
       <Header siteTitle={data.site.siteMetadata.title} />
       <main className="min-h-full">{children}</main>
+      <Footer />
     </div>
   )
 }
